@@ -1,0 +1,35 @@
+# Dépendances Node
+/node_modules
+/package-lock.json
+/yarn.lock
+/pnpm-lock.yaml
+
+# Build de production
+/build
+/dist
+/out
+/public/build # Si vous utilisez un build custom dans public
+
+# Fichiers de log et de cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+.cache
+
+# Variables d'environnement et fichiers sensibles (TRÈS IMPORTANT !)
+.env
+.env.local
+.env.*.local
+.DS_Store # Fichiers macOS
+Thumbs.db # Fichiers Windows
+
+# Fichiers d'IDE et de configuration
+.vscode/
+*.swp # Fichiers Vim
+# Pour les utilisateurs de VS Code:
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
