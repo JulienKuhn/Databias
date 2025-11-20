@@ -1,5 +1,59 @@
 {
 	"Search": "Recherche",
 	"Contact": "Contactez-nous",
-	"nav.dashboard": "Tableau de bord"
+	"cb.search":  "Rechercher par mot-clé",
+	"nav.dashboard": "Tableau de bord",
+	"page_title": "Catalogue de Biais Cognitifs",
+	"card_data": {
+		"confirmation_bias": {
+			"title": "Biais de Confirmation",
+			"content": "Tendance à rechercher, interpréter, favoriser et se souvenir des informations qui confirment ou soutiennent ses croyances ou hypothèses antérieures, ignorant les preuves contraires.",
+			"sort": "Confirmation"
+		},
+		"anchoring_bias": {
+			"title": "Biais d'Ancrage",
+			"content": "Tendance à se fier trop fortement à la première information (l'ancre) reçue lors de la prise de décision, même si celle-ci n'est pas pertinente.",
+			"sort": "Ancrage"
+		},
+		"availability_heuristic": {
+			"title": "Biais de Disponibilité",
+			"content": "Tendance à surestimer la probabilité d'événements qui sont facilement disponibles en mémoire, souvent parce qu'ils sont récents, marquants ou émotionnellement chargés.",
+			"sort": "Disponibilité"
+		},
+		"dunning_kruger_effect": {
+			"title": "Effet Dunning-Kruger",
+			"content": "Phénomène selon lequel les personnes les moins compétentes dans un domaine donné ont tendance à surestimer leur propre compétence, tandis que les personnes très compétentes ont tendance à la sous-estimer.",
+			"sort": "Dunning-Kruger"
+		},
+		"belief_bias": {
+			"title": "Biais de Croyance (ou de Cohérence)",
+			"content": "Tendance à évaluer la force d'un argument non pas en fonction de la validité logique de ses prémisses, mais en fonction de la crédibilité ou de la plausibilité de sa conclusion.",
+			"sort": "Croyance"
+		},
+		"hindsight_bias": {
+			"title": "Biais de Rétrospection",
+			"content": "Tendance, après qu'un événement s'est produit, à croire que l'on aurait pu le prédire, même s'il n'y avait pas de base objective pour cela (phénomène du 'Je le savais depuis le début').",
+			"sort": "Rétrospection"
+		},
+		"false_consensus_effect": {
+			"title": "Effet de Fausse Polarisation",
+			"content": "Tendance à surestimer la mesure dans laquelle les autres personnes partagent ses propres opinions, croyances, valeurs et comportements.",
+			"sort": "Fausse Polarisation"
+		},
+		"optimism_bias": {
+			"title": "Biais d'Optimisme",
+			"content": "Tendance cognitive qui amène les gens à croire qu'ils sont moins susceptibles que les autres de subir des événements négatifs (comme la maladie, l'échec ou un accident).",
+			"sort": "Optimisme"
+		},
+		"fundamental_attribution_error": {
+			"title": "Erreur Fondamentale d'Attribution",
+			"content": "Tendance à surestimer l'impact des facteurs personnels (caractère, personnalité) et à sous-estimer l'impact des facteurs situationnels lors de l'explication du comportement d'autrui.",
+			"sort": "Attribution"
+		},
+		"halo_effect": {
+			"title": "Effet de Halo",
+			"content": "Tendance, basée sur une seule caractéristique (souvent positive et superficielle) d'une personne ou d'une chose, à influencer positivement l'évaluation de toutes ses autres caractéristiques.",
+			"sort": "Halo" 
+		} 
+	}
 }

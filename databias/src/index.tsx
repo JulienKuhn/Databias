@@ -13,7 +13,6 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
         <I18nextProvider i18n={i18n}>
-            {/* Suspense attend que le backend HTTP soit prêt */}
             <Suspense fallback={<div>Chargement des traductions...</div>}>
                 <App />
             </Suspense>
