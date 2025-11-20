@@ -33,3 +33,37 @@ Thumbs.db # Fichiers Windows
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+
+# --- NOUVELLE SECTION: Visual Studio / .NET ---
+##############################################
+# Visual Studio / .NET
+##############################################
+# Fichiers de solution et de projet
+*.vspscc
+*.vssscc
+*.wafconfig
+*.webinfo
+*.user
+*.suo
+*.sln.docstates
+# Fichiers de projet temporaires
+obj/
+bin/
+.vs/
+# Répertoires de build et de dépendances
+[Dd]ebug/
+[Rr]elease/
+# Fichiers générés par l'IDE
+*.log
+*.rpt
+*.bak
+*.cache
+*.ncb
+*.pidb
+*.pdb
+*.orig
+# Fichiers de restauration de package (NuGet)
+packages/
+# Fichiers spécifiques à Visual Studio pour Mac/Linux (MonoDevelop)
+*.csproj.user
+*.m*proj.user

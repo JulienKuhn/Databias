@@ -1,8 +1,9 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useCallback } from 'react';
 import { useTranslation } from 'react-i18next';
 import SearchBar from './SearchBar';
 import Card from './Card';
-import { CardData } from './Types';
+import { CardData, CardProps } from './Types';
+import CardModal from './CardModal';
 
 const CardBody: React.FC = () => {
     const [searchTerm, setSearchTerm] = useState<string>('');
@@ -43,6 +44,7 @@ const CardBody: React.FC = () => {
 
     // Fetch the page title from translations
     const title: string = t('page_title');
+    const [selectedCard, setSelectedCard] = useState<CardProps | null>(null);
 
     /**
      * Initial card sorting logic based on the 'sort' field (alphabetical order).
@@ -80,9 +82,20 @@ const CardBody: React.FC = () => {
         );
     }, [sortedCards, searchTerm]);
 
-    return (
-        <div className="min-h-screen bg-gray-50 p-6 sm:p-10">
+    const handleCardClick = useCallback((cardData: CardProps) => {
+        setSelectedCard(cardData);
+    }, []);
 
+    const handleCloseModal = useCallback(() => {
+        setSelectedCard(null);
+    }, []);
+
+    return (
+        // 1. Conteneur principal: h-screen (hauteur d'écran), flex, flex-col.
+        // On enlève min-h-screen car on veut une hauteur fixe pour le scroll interne.
+        <div className="flex h-screen flex-col bg-gray-50 p-6 sm:p-10">
+
+            {/* Header: Ne défile PAS */}
             <header className="mb-8 flex flex-col items-center">
                 <h1 className="mb-6 text-3xl font-extrabold text-gray-900 sm:text-4xl">
                     {title}
@@ -93,18 +106,32 @@ const CardBody: React.FC = () => {
                 />
             </header>
 
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {filteredCards.length > 0 ? (
-                    filteredCards.map((card, index) => (
-                        <Card key={index} {...card} />
-                    ))
-                ) : (
-                    <p className="col-span-full p-10 text-center text-xl italic text-gray-500">
-                        {/* Translate the "No results found" message using i18next for consistency */}
-                        {t('no_results_message', { searchTerm: searchTerm })}
-                    </p>
-                )}
+            {/* 2. Nouveau Conteneur de Cartes:
+                - flex-grow: prend l'espace vertical restant.
+                - overflow-y-auto: rend le contenu verticalement défilable.
+                - p-4 ou -m-4: Ajoutez un peu de padding/margin ici si vous voulez un espacement interne au scroll.
+                - Les paddings extérieurs sont déjà sur le conteneur parent.
+            */}
+            <div className="flex-grow overflow-y-auto">
+                <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+                    {filteredCards.length > 0 ? (
+                        filteredCards.map((card, index) => (
+                            <Card key={index} {...card} onCardClick={handleCardClick} />
+                        ))
+                    ) : (
+                        <p className="col-span-full p-10 text-center text-xl italic text-gray-500">
+                            {/* Translate the "No results found" message using i18next for consistency */}
+                            {t('no_results_message', { searchTerm: searchTerm })}
+                        </p>
+                    )}
+                </div>
             </div>
+            {selectedCard && (
+                <CardModal
+                    data={selectedCard}
+                    onClose={handleCloseModal}
+                />
+            )}
         </div>
     );
 };

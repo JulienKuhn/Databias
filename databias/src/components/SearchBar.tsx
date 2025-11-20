@@ -11,7 +11,7 @@ const SearchBar: React.FC<SearchBarProps> = ({ searchTerm, onSearchChange }) => 
                 placeholder={t('cb.search')}
                 value={searchTerm}
                 onChange={(e) => onSearchChange(e.target.value)}
-                className="w-full px-6 py-3 border border-gray-300 rounded-full text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
+                className="w-full px-6 py-3 border border-gray-300 rounded-lg text-lg shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition duration-150 ease-in-out"
                 aria-label="Recherche de cartes"
             />
         </div>
