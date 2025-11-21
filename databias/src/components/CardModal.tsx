@@ -1,7 +1,7 @@
-﻿// CardModal.tsx
+// CardModal.tsx
 import React from 'react';
 import { CardProps } from './Types';
-import { createPortal } from 'react-dom'; // Pour s'assurer que la modale est au-dessus de tout
+import { createPortal } from 'react-dom'; 
 
 interface CardModalProps {
     data: CardProps;
@@ -20,12 +20,10 @@ const CardModal: React.FC<CardModalProps> = ({ data, onClose }) => {
 
 
     const modalContent = (
-        // Fond de la modale: Plein écran, centré (fixed inset-0), semi-transparent
         <div
             className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-70 backdrop-blur-sm"
-            onClick={onClose} // Fermer en cliquant à l'extérieur
+            onClick={onClose}
         >
-            {/* Contenu de la modale: Centré, grande taille, blanc, défilable */}
             <div
                 className="relative m-4 h-5/6 w-full max-w-4xl scale-100 transform overflow-y-auto rounded-xl bg-white p-8 shadow-2xl transition-all duration-300 ease-out"
                 onClick={(e) => e.stopPropagation()} // Empêche la fermeture en cliquant dans le contenu
@@ -40,15 +38,14 @@ const CardModal: React.FC<CardModalProps> = ({ data, onClose }) => {
                 </button>
 
                 {/* Grille pour le contenu (Description à gauche, Image à droite) */}
-                <div className="flex h-full flex-col gap-8 md:flex-row">
+                <div className="grid w-full grid-cols-1 gap-8 md:grid-cols-2">
 
                     {/* Colonne du Contenu Textuel et Liens (Gauche) */}
-                    <div className="flex flex-col md:w-1/2">
-                        <h2 className="mb-4 text-4xl font-bold text-blue-700">{data.title}</h2>
+                    <div className="w-full"> 
+                        <h2 className="mb-4 text-center text-4xl font-bold text-blue-700">{data.title}</h2>
                         <div className="flex-grow overflow-y-auto pr-4">
                             <p className="mb-6 whitespace-pre-line text-lg text-gray-800">{data.content}</p>
                         </div>
-
                         {/* Liens Sources (Bas de la colonne de gauche) */}
                         {data.sourceLinks && data.sourceLinks.length > 0 && (
                             <div className="mt-4 border-t pt-4">
@@ -72,7 +69,7 @@ const CardModal: React.FC<CardModalProps> = ({ data, onClose }) => {
                     </div>
 
                     {/* Colonne de l'Image (Droite) */}
-                    <div className="flex items-center justify-center md:w-1/2">
+                    <div className="w-full items-center justify-center">
                         {data.imageUrl ? (
                             <img
                                 src={data.imageUrl}

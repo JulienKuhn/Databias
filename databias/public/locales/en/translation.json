@@ -8,52 +8,152 @@
     "confirmation_bias": {
       "title": "Confirmation Bias",
       "content": "The tendency to search for, interpret, favor, and recall information that confirms or supports one's prior personal beliefs or values.",
-      "sort": "Confirmation"
+      "sort": "Confirmation",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "anchoring_bias": {
       "title": "Anchoring Bias",
       "content": "The tendency to rely too heavily on the first piece of information offered (the 'anchor') when making decisions.",
-      "sort": "Ancrage"
+      "sort": "Ancrage",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "availability_heuristic": {
       "title": "Availability Heuristic",
       "content": "A mental shortcut that relies on immediate examples that come to a given person's mind when evaluating a specific topic, concept, method or decision.",
-      "sort": "Disponibilité"
+      "sort": "Disponibilité",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "dunning_kruger_effect": {
       "title": "Dunning-Kruger Effect",
       "content": "A cognitive bias in which people with low competence in a particular skill or area overestimate their ability.",
-      "sort": "Dunning-Kruger"
+      "sort": "Dunning-Kruger",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "belief_bias": {
       "title": "Belief Bias",
       "content": "The tendency to judge the strength of arguments based on the plausibility of their conclusion rather than on the validity of their logical structure.",
-      "sort": "Croyance"
+      "sort": "Croyance",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "hindsight_bias": {
       "title": "Hindsight Bias",
       "content": "The inclination, after an event has occurred, to see the event as having been predictable, despite there having been little or no objective basis for predicting it.",
-      "sort": "Rétrospection"
+      "sort": "Rétrospection",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "false_consensus_effect": {
       "title": "False Consensus Effect",
       "content": "The tendency for people to overestimate the extent to which their beliefs and opinions are typical of those of others.",
-      "sort": "Fausse Polarisation"
+      "sort": "Fausse Polarisation",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "optimism_bias": {
       "title": "Optimism Bias",
       "content": "A cognitive bias that causes a person to believe that they are less at risk of experiencing a negative event compared to others.",
-      "sort": "Optimisme"
+      "sort": "Optimisme",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "fundamental_attribution_error": {
       "title": "Fundamental Attribution Error",
       "content": "The tendency to explain someone's behavior based on internal factors (personality) and to underestimate the influence of external factors (situational).",
-      "sort": "Attribution"
+      "sort": "Attribution",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     },
     "halo_effect": {
       "title": "Halo Effect",
       "content": "A cognitive bias in which an observer's overall impression of a person, company, or brand influences the observer's feelings and thoughts about that entity's character.",
-      "sort": "Halo"
+      "sort": "Halo",
+      "sourceLinks": [
+        {
+          "label": "Article de référence sur les Transformers",
+          "url": "https://example.com/reference/article1"
+        },
+        {
+          "label": "Exemples d'applications créatives",
+          "url": "https://example.com/reference/article2"
+        }
+      ]
     }
   }
 }

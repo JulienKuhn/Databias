@@ -8,52 +8,152 @@
 		"confirmation_bias": {
 			"title": "Biais de Confirmation",
 			"content": "Tendance à rechercher, interpréter, favoriser et se souvenir des informations qui confirment ou soutiennent ses croyances ou hypothèses antérieures, ignorant les preuves contraires.",
-			"sort": "Confirmation"
+			"sort": "Confirmation",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"anchoring_bias": {
 			"title": "Biais d'Ancrage",
 			"content": "Tendance à se fier trop fortement à la première information (l'ancre) reçue lors de la prise de décision, même si celle-ci n'est pas pertinente.",
-			"sort": "Ancrage"
+			"sort": "Ancrage",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"availability_heuristic": {
 			"title": "Biais de Disponibilité",
 			"content": "Tendance à surestimer la probabilité d'événements qui sont facilement disponibles en mémoire, souvent parce qu'ils sont récents, marquants ou émotionnellement chargés.",
-			"sort": "Disponibilité"
+			"sort": "Disponibilité",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"dunning_kruger_effect": {
 			"title": "Effet Dunning-Kruger",
 			"content": "Phénomène selon lequel les personnes les moins compétentes dans un domaine donné ont tendance à surestimer leur propre compétence, tandis que les personnes très compétentes ont tendance à la sous-estimer.",
-			"sort": "Dunning-Kruger"
+			"sort": "Dunning-Kruger",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"belief_bias": {
 			"title": "Biais de Croyance (ou de Cohérence)",
 			"content": "Tendance à évaluer la force d'un argument non pas en fonction de la validité logique de ses prémisses, mais en fonction de la crédibilité ou de la plausibilité de sa conclusion.",
-			"sort": "Croyance"
+			"sort": "Croyance",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"hindsight_bias": {
 			"title": "Biais de Rétrospection",
 			"content": "Tendance, après qu'un événement s'est produit, à croire que l'on aurait pu le prédire, même s'il n'y avait pas de base objective pour cela (phénomène du 'Je le savais depuis le début').",
-			"sort": "Rétrospection"
+			"sort": "Rétrospection",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"false_consensus_effect": {
 			"title": "Effet de Fausse Polarisation",
 			"content": "Tendance à surestimer la mesure dans laquelle les autres personnes partagent ses propres opinions, croyances, valeurs et comportements.",
-			"sort": "Fausse Polarisation"
+			"sort": "Fausse Polarisation",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"optimism_bias": {
 			"title": "Biais d'Optimisme",
 			"content": "Tendance cognitive qui amène les gens à croire qu'ils sont moins susceptibles que les autres de subir des événements négatifs (comme la maladie, l'échec ou un accident).",
-			"sort": "Optimisme"
+			"sort": "Optimisme",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"fundamental_attribution_error": {
 			"title": "Erreur Fondamentale d'Attribution",
 			"content": "Tendance à surestimer l'impact des facteurs personnels (caractère, personnalité) et à sous-estimer l'impact des facteurs situationnels lors de l'explication du comportement d'autrui.",
-			"sort": "Attribution"
+			"sort": "Attribution",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		},
 		"halo_effect": {
 			"title": "Effet de Halo",
 			"content": "Tendance, basée sur une seule caractéristique (souvent positive et superficielle) d'une personne ou d'une chose, à influencer positivement l'évaluation de toutes ses autres caractéristiques.",
-			"sort": "Halo" 
+			"sort": "Halo",
+			"sourceLinks": [
+				{
+					"label": "Article de référence sur les Transformers",
+					"url": "https://example.com/reference/article1"
+				},
+				{
+					"label": "Exemples d'applications créatives",
+					"url": "https://example.com/reference/article2"
+				}
+			]
 		} 
 	}
 }
