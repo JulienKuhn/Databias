@@ -8,6 +8,6 @@
     "\\src",
     "\\src\\components"
   ],
-  "SelectedNode": "\\public\\locales\\fr\\translation.json",
+  "SelectedNode": "\\src\\components\\CardModal.tsx",
   "PreviewInSolutionExplorer": false
 }
